@@ -1,3 +1,8 @@
+/**
+ * Author: Colin Koo
+ * Professor: Davarpanah
+ * Assignment: Multithread echo-server and echo-client communication.
+ */
 import java.io.InputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
