@@ -25,8 +25,10 @@ public final class EchoClient {
 				InputStream is = socket.getInputStream();
 				InputStreamReader isr = new InputStreamReader(is, "UTF-8");
 				BufferedReader br = new BufferedReader(isr);
-				System.out.println(br.readLine());
-				if (input.equals("exit")){
+				if (!input.equals("exit")){
+					System.out.println(br.readLine());
+				}
+				else{
 					break;
 				}
 			}
